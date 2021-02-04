@@ -1,0 +1,118 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Utilities */
+body {
+  background-image: url(https://www.picgifs.com/graphics/f/floaties-bubbles/graphics-floaties-bubbles-656961.gif);
+  margin: 0;
+  font-family: 'Pirata One', cursive;}
+
+h1, h2, h3 {
+  font-family: 'Pirata One', cursive;
+  font-size: 60px;
+}
+h4 {
+  font-family: 'Pirata One', cursive;
+  font-size: 40px;
+}
+a {
+  font-family: 'Pirata One', cursive;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Custom design below! */
+
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://images.unsplash.com/photo-1462927346281-d1727e290082?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTN8fGZpc2hpbmd8ZW58MHx8MHw%3D&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+}
+
+.banner h1 {
+  color: white;
+}
+
+.banner p {
+  color:white;
+  opacity: .7;
+  font-size: 30px;
+}
+
+.btn-primary {
+  display: inline-block;
+  background-color: #253237;
+  padding: 16px 36px;
+  border-radius: 50px;
+  color: white;
+}
+.btn-primary:hover {
+  background-color: #e9c46a;
+}
+
+.btn-secondary {
+  border: 1px solid #9db4c0;
+  padding: 8px 16px;
+  border-radius: 50px;
+  color: #e0fbfc;
+}
+
+
+.card img {
+  height: 100px;
+}
+
+.card p {
+  opacity: .5;
+}
+
+.card {
+  width: 200px;
+  border-radius: 3px;
+  background-color: white;
+  box-shadow: 0 0 5px rgb(230,230,230);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230,230,230);
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.footer {
+  text-align: center;
+  padding: 60px;
+  background-color: #e9c46a;
+}
+
+.footer a {
+  font-size: 20px;
+  color:  #2a9d8f;
+}
+
+.footer p {
+  color: #2a9d8f;
+}
+
+.footer .fas {
+  color: #2a9d8f;
+}
+
+/* Custom design below! */
+
